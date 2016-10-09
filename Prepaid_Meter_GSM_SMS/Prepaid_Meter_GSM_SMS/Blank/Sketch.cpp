@@ -39,8 +39,6 @@ void SendDataToServer(){
 			client.write(26);
 			client.print("\r");
 		}
-		
-		Serial.println("Done");
 	}
 	client.flush();
 }
