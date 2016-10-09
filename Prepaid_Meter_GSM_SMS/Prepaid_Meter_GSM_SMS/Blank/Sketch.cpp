@@ -53,7 +53,6 @@ String ReadSMS(){
 	char c;
 	String out;
 	if (sms.available()) {
-
 		// Get remote number
 		sms.remoteNumber(senderNumber, 20);
 		Serial.println(senderNumber);

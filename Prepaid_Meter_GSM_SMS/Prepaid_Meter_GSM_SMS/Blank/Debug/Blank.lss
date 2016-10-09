@@ -9584,7 +9584,6 @@ String ReadSMS(){
     376a:	0e 94 bf 17 	call	0x2f7e	; 0x2f7e <_ZN14GSM3SMSService9availableEv>
     376e:	89 2b       	or	r24, r25
     3770:	99 f1       	breq	.+102    	; 0x37d8 <_Z7ReadSMSv+0x82>
-
 		// Get remote number
 		sms.remoteNumber(senderNumber, 20);
     3772:	44 e1       	ldi	r20, 0x14	; 20
