@@ -40,6 +40,10 @@ void SendDataToServer(){
 			client.print("\r");
 		}
 	}
+	else
+	{
+		client.print("AT+CIPCLOSE\r");
+	}
 	client.flush();
 }
 
